@@ -1,15 +1,19 @@
-import { Fragment } from 'react';
-import { RouterProvider } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { CssBaseline } from '@mui/material';
-import router from './router';
-import './App.css';
+import { ThemeProvider } from '@mui/material/styles';
+import ContextProvider from './context';
+import routes from './routes';
+import theme from './theme';
 
 function App() {
+  const router = createBrowserRouter(routes);
   return (
-    <Fragment>
+    <ThemeProvider theme={theme}>
       <CssBaseline />
-      <RouterProvider router={router} />
-    </Fragment>
+      <ContextProvider>
+        <RouterProvider router={router} />
+      </ContextProvider>
+    </ThemeProvider>
   );
 }
 

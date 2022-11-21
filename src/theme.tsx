@@ -18,6 +18,9 @@ const theme = createTheme({
         root: {
           borderRadius: '24px',
         },
+        contained: {
+          color: '#fff',
+        }
       },
     },
   }

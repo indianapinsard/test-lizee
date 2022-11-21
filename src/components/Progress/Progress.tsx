@@ -3,7 +3,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 
 function Progress(): JSX.Element {
   return (
-    <Box sx={{width: '100%', textAlign: 'center'}}>
+    <Box className="progress" sx={{width: '100%', textAlign: 'center'}}>
       <CircularProgress />
     </Box>
   );

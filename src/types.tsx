@@ -1,16 +1,37 @@
-import { AxiosPromise } from 'axios';
-
-export interface ItemListPromiseType {
-  data: AxiosPromise;
+export interface ItemImageType {
+  cachedPath: string;
 };
 
 export interface ItemType {
   slug: string;
   name: string;
   shortDescription: string;
-  images: {
-    cachedPath: string;
-  }[];
+  images: ItemImageType[];
 };
 
-export type ItemListType = ItemType[];
+export interface ItemSizeType {
+  name: string;
+  code: string;
+};
+
+export interface VariantType {
+  code: string;
+  name: string;
+  price: {
+    current: number;
+    currency: string;
+  };
+};
+
+export interface ItemDataType {
+  name: string;
+  description: string;
+  images: ItemImageType[];
+  variants: Record<string,VariantType>
+};
+
+export interface ItemListResponseType {
+  page: number;
+  pages: number;
+  items: ItemType[];
+};

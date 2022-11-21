@@ -7,8 +7,8 @@ import Icon from '@mui/material/Icon';
 
 function ErrorPage(): JSX.Element {
   return (
-    <Container maxWidth="md" sx={{height: '100vh'}}>
-      <Stack alignItems="center" justifyContent="space-around" sx={{height: '100%'}}>
+    <Container className="error" maxWidth="md" sx={{height: '100vh'}}>
+      <Stack alignItems="center" justifyContent="space-evenly" sx={{height: '100%'}}>
         <Icon sx={{fontSize: '8em'}}>warning_amber</Icon>
         <Typography variant="h1" component="h1">
           Oops, something went wrong ...
