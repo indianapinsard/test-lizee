@@ -10,7 +10,7 @@ import { DatePicker } from '@mui/x-date-pickers';
 import TextField from '@mui/material/TextField';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 
-const homeImg = require('../../statics/home.jpeg');
+const homeImg = require('../statics/home.jpeg');
 
 const headerStyle = {
   position: 'relative',

@@ -1,9 +1,9 @@
 import axios from 'axios';
 import { createMemoryRouter, RouterProvider } from 'react-router-dom'
-import { render, waitFor } from '@testing-library/react';
-import { listItemsAxiosResponse } from './mocks';
-import routes from './routes';
-import App from './App';
+import { render } from '@testing-library/react';
+import { listItemsAxiosResponse } from '../__mocks__';
+import routes from '../routes';
+import App from '../App';
 
 describe('App', () => {
 

@@ -1,6 +1,6 @@
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
-import { ItemSizeType } from '../../types';
+import { ItemSizeType } from '../types';
 
 interface Props {
   onSizeClick: (code: string) => void;

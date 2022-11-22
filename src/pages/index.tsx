@@ -1,6 +1,6 @@
-import ErrorPage from './ErrorPage/ErrorPage';
-import HomePage from './HomePage/HomePage';
-import ProductPage from './ProductPage/ProductPage';
+import ErrorPage from './ErrorPage';
+import HomePage from './HomePage';
+import ProductPage from './ProductPage';
 
 export {
   ErrorPage,

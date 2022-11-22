@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import SizeButtonGroup from './SizeButtonGroup';
+import { SizeButtonGroup } from '../components';
 
 describe('Size Button Group', () => {
   afterEach(() => {

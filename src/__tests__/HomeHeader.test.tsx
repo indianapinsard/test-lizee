@@ -1,6 +1,6 @@
 import dayjs from 'dayjs';
 import { render, fireEvent } from '@testing-library/react';
-import HomeHeader from './HomeHeader';
+import { HomeHeader } from '../containers';
 
 test('Home Header should handle date update', async () => {
   const maDate = new Date()

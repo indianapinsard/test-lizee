@@ -1,8 +1,8 @@
 import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import { render, waitFor } from '@testing-library/react';
-import { getItemAxiosResponse } from '../../mocks';
-import { instance } from '../../services/api';
-import ProductPage from './ProductPage';
+import { getItemAxiosResponse } from '../__mocks__';
+import { instance } from '../services/api';
+import { ProductPage } from '../pages';
 
 describe('ProductPage', () => {
 

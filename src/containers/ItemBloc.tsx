@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Container, Stack, Box, Typography } from '@mui/material';
-import { SizeButtonGroup } from '../../components';
-import { ItemDataType } from '../../types';
+import { SizeButtonGroup } from '../components';
+import { ItemDataType } from '../types';
 
 interface Props {
   data: ItemDataType;

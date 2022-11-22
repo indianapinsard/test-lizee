@@ -1,6 +1,6 @@
-import HomeHeader from './HomeHeader/HomeHeader';
-import ItemBloc from './ItemBloc/ItemBloc';
-import ItemGrid from './ItemGrid/ItemGrid';
+import HomeHeader from './HomeHeader';
+import ItemBloc from './ItemBloc';
+import ItemGrid from './ItemGrid';
 
 export {
   HomeHeader,

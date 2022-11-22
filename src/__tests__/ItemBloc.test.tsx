@@ -1,7 +1,7 @@
-import { render, waitFor } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import { getItemAxiosResponse } from '../../mocks';
-import ItemBloc from './ItemBloc';
+import { getItemAxiosResponse } from '../__mocks__';
+import { ItemBloc } from '../containers';
 
 test('should change size on size button click', () => {
   const { container } = render(<ItemBloc data={getItemAxiosResponse.data} />);

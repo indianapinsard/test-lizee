@@ -1,6 +1,6 @@
-import ItemCard from './ItemCard/ItemCard';
-import Progress from './Progress/Progress';
-import SizeButtonGroup from './SizeButtonGroup/SizeButtonGroup';
+import ItemCard from './ItemCard';
+import Progress from './Progress';
+import SizeButtonGroup from './SizeButtonGroup';
 
 export {
   ItemCard,

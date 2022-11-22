@@ -1,8 +1,8 @@
 import { useState, useEffect, Fragment } from 'react';
 import { useParams } from 'react-router-dom';
-import { Progress } from '../../components';
-import { ItemBloc } from '../../containers';
-import { getItem } from '../../services/api';
+import { Progress } from '../components';
+import { ItemBloc } from '../containers';
+import { getItem } from '../services/api';
 
 function ProductPage(): JSX.Element {
   const { productId } = useParams();
